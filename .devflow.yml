@@ -8,6 +8,13 @@ stack:
     modules:
      -  pdo_mysql
 
+  mysql:
+    version: 5.5
+    user: root
+    password: root
+    databases:
+      - database
+
 deployment:
   install:
     - composer install --prefer-dist --no-interaction --optimize-autoloader
