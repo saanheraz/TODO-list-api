@@ -5,6 +5,8 @@ stack:
 
   php:
     version: 5.6
+    modules:
+     -  pdo_mysql
 
 deployment:
   install:
