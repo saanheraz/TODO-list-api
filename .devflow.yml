@@ -1,0 +1,13 @@
+stack:
+  nginx:
+    document_root: web
+    index: index.php
+
+  php:
+    version: 5.6
+
+deployment:
+  install:
+    - composer install --prefer-dist --no-interaction --optimize-autoloader
+    - cp app/parameters.yml.dist app/parameters.yml
+    - php app/console orm:schema-tool:create
