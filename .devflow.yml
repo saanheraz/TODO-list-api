@@ -13,7 +13,7 @@ stack:
     user: root
     password: root
     databases:
-      - database
+      - todolist
 
 deployment:
   install:
