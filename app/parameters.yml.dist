@@ -1,5 +1,5 @@
 parameters:
-  db_name: database
+  db_name: todolist
   db_user: root
   db_password: root
   db_host: localhost
