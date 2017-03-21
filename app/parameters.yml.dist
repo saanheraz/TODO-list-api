@@ -3,6 +3,6 @@ parameters:
   db_user: todouser
   db_password: todouser
   db_host: localhost
-  db_port: 8889
+  db_port: 3306
   environment: dev
   reporters: ['mathieu', 'james', 'ludovic']
