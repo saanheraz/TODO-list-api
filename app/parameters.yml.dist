@@ -1,7 +1,7 @@
 parameters:
   db_name: todolist
-  db_user: root
-  db_password: root
+  db_user: todouser
+  db_password: todouser
   db_host: localhost
   db_port: 8889
   environment: dev
