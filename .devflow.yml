@@ -10,8 +10,8 @@ stack:
 
   mysql:
     version: 5.5
-    user: root
-    password: root
+    user: todouser
+    password: todouser
     databases:
       - todolist
 
