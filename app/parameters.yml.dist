@@ -2,7 +2,7 @@ parameters:
   db_name: todolist
   db_user: todouser
   db_password: todouser
-  db_host: localhost
+  db_host: mysql
   db_port: 3306
   environment: dev
   reporters: ['mathieu', 'james', 'ludovic']
